@@ -4,6 +4,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #261517 0%, #3b1f21 25%, #503437 50%, #3b1f21 75%, #261517 100%);
+  color: #FFFFFF; /* Đặt màu chữ là trắng để nổi bật trên nền tối */
 }
 
 main {

@@ -1,33 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .home {
   text-align: center;
   background: white;
   padding: 3rem;
   border-radius: 12px;
-  // box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.homeIcon {
+  font-size: 3rem;
+  color: #ed1a2f;
+  margin-bottom: 1rem;
 }
 
 .title {
   margin-bottom: 1.5rem;
   font-weight: bold;
-  color: #00796b;
+  color: #261517;
 }
 
 .subtitle {
   margin-bottom: 2.5rem;
-  color: #004d40;
+  color: #261517;
 }
 
 .button {
-  margin-bottom: 2rem;
-  background-color: #00796b;
+  margin-top: 2rem;
+  background-color: #ed1a2f;
   &:hover {
-    background-color: #004d40;
+    background-color: #b03743;
   }
 }
 
 .textBelow {
   margin-top: 2rem;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-right: 0.5rem;
 }
 
 .comingSoon {

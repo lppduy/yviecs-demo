@@ -30,11 +30,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         </Card>
       </Container>
       <footer className={styles.footer}>
-        <Container>
-          <Typography variant="body2" color="text.secondary" align="center">
+      <Container>
+          <Typography variant="body2" align="center" style={{ color: '#FFFFFF' }}>
             © {new Date().getFullYear()} Yviecs.com. All rights reserved.
           </Typography>
-        </Container>
+      </Container>
+
       </footer>
     </div>
   );

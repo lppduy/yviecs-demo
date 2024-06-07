@@ -1,15 +1,16 @@
 // src/theme.ts
 import { createTheme } from '@mui/material/styles';
-import { grey, blue,green } from '@mui/material/colors';
+import { grey, blue, black  } from '@mui/material/colors';
 
-const primaryColor = '#00796b';
+const primaryColor = '#261517';
+// const backgroundColor = '#261517';
 
 const lightTheme = createTheme({
   palette: {
     mode: 'light',
-    background: {
-      default: grey[100],
-    },
+    // background: {
+    //   default: backgroundColor,
+    // },
     primary: {
       main: primaryColor,
     },
