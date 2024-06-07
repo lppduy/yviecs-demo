@@ -1,0 +1,21 @@
+// src/styles/JobCard.module.scss
+.card {
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.cardContent {
+  transition: color 0.2s ease-in-out;
+}
+
+.card:hover .cardContent {
+  color: #1976d2;
+}

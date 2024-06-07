@@ -1,0 +1,31 @@
+.jobListContainer {
+  margin-top: 2rem;
+}
+
+.comingSoon {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.comingSoonText {
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: #004d40;
+}
+
+.comingSoonImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.backButton {
+  margin-top: 2rem;
+  background-color: #00796b;
+  &:hover {
+    background-color: #004d40;
+  }
+}
+
+// Path: src/styles/Joblist.module.scss
