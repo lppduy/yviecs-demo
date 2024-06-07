@@ -11,7 +11,7 @@ export default function Home() {
         title="Yviecs.com - Your trusted platform for medical job recruitment"
         description="Find the best medical jobs at Yviecs.com. Your trusted platform for medical job recruitment."
         url="https://www.yviecs.com/"
-        image="https://www.yviecs.com/assets/thumbnail.png" 
+        image="https://www.yviecs.com/assets/img-thumbnail.png" 
       />
       <Box className={styles.home}>
         <Typography variant="h4" component="h1" className={styles.title}>
